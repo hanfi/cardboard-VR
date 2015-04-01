@@ -4,7 +4,7 @@ function MainController() {
 	
 	var scene = this;
 
-	scene.showHotspots = true;
+	scene.showHotspots = false;
 
 	// Rotate
 	//scene.rotation.y = 1000;

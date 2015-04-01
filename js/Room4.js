@@ -5,9 +5,6 @@ function Room4(scene){
 	THREE.Object3D.call(this);
 	var room4 = this;
 	
-	this.textLights = new TextLights(scene, {
-		
-	});
 	
 	this.hotspotToRoom3 = new Hotspot(scene, {
 		rectLength: 4, 
@@ -47,7 +44,6 @@ function Room4(scene){
 	
 	this.remove = function(){
 		this.photoSphere.remove();
-		this.textLights.remove();
 		this.hotspotToRoom3.remove();
 		
 		
